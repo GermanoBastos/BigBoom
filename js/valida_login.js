@@ -11,3 +11,6 @@ function logar() {
   }
 }
 
+function link() {
+  alert("Contate o administrador do sistema \nEmail: suporte@bigboom.com.br\nTel.: 81 9 9999 0099")
+}
