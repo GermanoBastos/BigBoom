@@ -73,8 +73,8 @@
                     <!-- Linha 01  ------------------------------------------------------------->
                     <div class="row">
                         <div class="my-2 col-lg-12 col-xl-6">
-                            <label class="form-label">Nome:</label>
-                            <input class="form-control" name="text" pattern="[a-zA-Z\s]+$" type="text" required>
+                            <label class="form-label"><span class="obrigatorio">*</span> Nome:</label>
+                            <input class="form-control" name="text" pattern="[a-zA-Z\s]+$" type="text">
                         </div>
 
                         <div class="my-2 col-md-6 col-lg-6 col-xl-3">
@@ -92,15 +92,15 @@
                     <div class="form-group row">
                         <div class="my-2  col-md-6 col-lg-6 col-xl-3">
                             <label class="form-label">E-mail:</label>
-                            <input class="form-control" type="email" required>
+                            <input class="form-control" type="email">
                         </div>
                         <div class="my-2 col-md-6 col-lg-6 col-xl-3">
-                            <label class="form-label">Telefone:</label>
+                            <label class="form-label"><span class="obrigatorio">*</span> Telefone:</label>
                             <input class="form-control" type="text" id="telefone" maxlength="10">
                         </div>
 
                         <div class="my-2 col-md-6 col-lg-6 col-xl-3">
-                            <label class="form-label">Cargo:</label>
+                            <label class="form-label"><span class="obrigatorio">*</span> Cargo:</label>
                             <select class="form-select " aria-label="Default select example">
                                 <option value="1">Estoquista</option>
                                 <option value="2">Médico</option>
@@ -108,7 +108,7 @@
                         </div>
 
                         <div class="my-2 col-md-6 col-lg-6 col-xl-3">
-                            <label class="form-label">Perfil:</label>
+                            <label class="form-label"><span class="obrigatorio">*</span> Perfil:</label>
                             <select class="form-select " aria-label="Default select example">
                                 <option value="1">Administrador</option>
                                 <option value="2">Usuário</option>

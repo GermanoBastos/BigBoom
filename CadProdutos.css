@@ -5,7 +5,9 @@
   list-style: none;
   border: 0;
 }
-
+.obrigatorio{
+  color: red;
+}
 @keyframes fade-in-container {
   fron {
     opacity: 0;

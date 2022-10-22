@@ -76,8 +76,8 @@
                     <!-- Linha 01  ------------------------------------------------------------->
                     <div class="line1 row">
                         <div class="my-2 col-lg-12 col-xl-6">
-                            <label class="form-label">Nome:</label>
-                            <input class="form-control" type="text" required>
+                            <label class="form-label"><span class="obrigatorio">*</span> Produto:</label>
+                           <input class="form-control" type="text" required>
                         </div>
 
                         <div class="my-2  col-lg-6 col-xl-3">
@@ -85,21 +85,26 @@
                             <input class="form-control" type="text">
                         </div>
                         <div class="my-2  col-lg-6 col-xl-3">
-                            <label class="form-label">Data do cadastro:</label>
-                            <input class="form-control" type="date">
+                            <label class="form-label"><span class="obrigatorio">*</span> Data do cadastro:</label>
+                            <input class="form-control" type="date" required>
                         </div>
 
                     </div>
 
                     <!-- Linha 02  ------------------------------------------------------------->
                     <div class="row">
-                        <div class="my-2  col-lg-6 col-xl-3">
-                            <label class="form-label">Categoria:</label>
-                            <input class="form-control" type="text">
+                        <div class="my-2 col-md-6 col-lg-6 col-xl-3">
+                            <label class="form-label"><span class="obrigatorio">*</span> Categoria:</label>
+                        <select class="form-select " aria-label="Default select example" required>
+                          <option value="1">Medicamento</option>
+                            <option value="2">Material de escritório</option>
+                            <option value="3">Material de limpeza</option>
+                            <option value="4">Outros</option>
+                          </select>
                         </div>
                         <div class="my-2  col-lg-6 col-xl-3">
-                            <label class="form-label">Quantidade:</label>
-                            <input class="form-control" type="number">
+                            <label class="form-label"><span class="obrigatorio">*</span> Quantidade:</label>
+                            <input class="form-control" type="number" required>
                         </div>
                         <div class="my-2  col-lg-6 col-xl-3">
                             <label class="form-label">Código de barras:</label>
@@ -107,8 +112,8 @@
                         </div>
 
                         <div class="my-2 col-md-6 col-lg-6 col-xl-3">
-                            <label class="form-label">Incluido por:</label>
-                        <select class="form-select " aria-label="Default select example">
+                            <label class="form-label"><span class="obrigatorio">*</span> Incluido por:</label>
+                        <select class="form-select " aria-label="Default select example" required>
                           <option value="1">Germano</option>
                             <option value="2">Luana</option>
                             <option value="3">Marconi</option>
