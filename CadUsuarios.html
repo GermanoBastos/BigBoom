@@ -74,7 +74,7 @@
                     <div class="row">
                         <div class="my-2 col-lg-12 col-xl-6">
                             <label class="form-label"><span class="obrigatorio">*</span> Nome:</label>
-                            <input class="form-control" name="text" pattern="[a-zA-Z\s]+$" type="text">
+                            <input class="form-control" name="text" pattern="[a-zA-Z\s]+$" type="text" required>
                         </div>
 
                         <div class="my-2 col-md-6 col-lg-6 col-xl-3">
@@ -82,8 +82,8 @@
                             <input class="form-control" type="text" id="crm" maxlength="10">
                         </div>
                         <div class="my-2 col-md-6 col-lg-6 col-xl-3">
-                            <label class="form-label">CPF:</label>
-                            <input class="form-control" type="text" maxlength="14" autocomplete="off" id="cpf">
+                            <label class="form-label"><span class="obrigatorio">*</span> CPF:</label>
+                            <input class="form-control" type="text" maxlength="14" autocomplete="off" id="cpf" required>
                         </div>
 
                     </div>
