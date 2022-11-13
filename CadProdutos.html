@@ -17,7 +17,6 @@
 
     <!-- HEADER  -->
     <div class="header">
-        
         <nav class="navbar navbar-menu navbar-expand-lg navbar-light bg-light">
             <div class="container ">
                 <a class="navbar-brand mx-4" href="index.html"><img src="img/NovoLogo-BigStok-250x150.png " width="60%"
@@ -77,7 +76,7 @@
                     <div class="line1 row">
                         <div class="my-2 col-lg-12 col-xl-6">
                             <label class="form-label"><span class="obrigatorio">*</span> Produto:</label>
-                           <input class="form-control" type="text" required>
+                            <input class="form-control" type="text" required>
                         </div>
 
                         <div class="my-2  col-lg-6 col-xl-3">
@@ -93,42 +92,47 @@
 
                     <!-- Linha 02  ------------------------------------------------------------->
                     <div class="row">
-                        <div class="my-2 col-md-6 col-lg-6 col-xl-3">
+                        <div class="my-2 col-md-12 col-lg-6 col-xl-2">
                             <label class="form-label"><span class="obrigatorio">*</span> Categoria:</label>
-                        <select class="form-select " aria-label="Default select example" required>
-                          <option value="1">Medicamento</option>
-                            <option value="2">Material de escritório</option>
-                            <option value="3">Material de limpeza</option>
-                            <option value="4">Outros</option>
-                          </select>
+                            <select class="form-select " aria-label="Default select example" required>
+                                <option value="1">Medicamento</option>
+                                <option value="2">Material de escritório</option>
+                                <option value="3">Material de limpeza</option>
+                                <option value="4">Outros</option>
+                            </select>
                         </div>
-                        <div class="my-2  col-lg-6 col-xl-3">
+                        <div class="my-2  col-md-6 col-lg-6 col-xl-2">
                             <label class="form-label"><span class="obrigatorio">*</span> Quantidade:</label>
                             <input class="form-control" type="number" required>
                         </div>
-                        <div class="my-2  col-lg-6 col-xl-3">
+                        <div class="my-2 col-md-6 col-lg-6 col-xl-2">
+                            <label class="form-label"><span class="obrigatorio">*</span> Unidade:</label>
+                            <select class="form-select " aria-label="Default select example" required>
+                                <option value="1">UN</option>
+                                <option value="2">CX</option>
+                                <option value="3">L</option>
+                                <option value="4">Kg</option>
+                            </select>
+                        </div>
+                        <div class="my-2 col-md-6 col-lg-6 col-xl-3">
                             <label class="form-label">Código de barras:</label>
                             <input class="form-control" type="number">
                         </div>
 
                         <div class="my-2 col-md-6 col-lg-6 col-xl-3">
-                            <label class="form-label"><span class="obrigatorio">*</span> Incluido por:</label>
-                        <select class="form-select " aria-label="Default select example" required>
-                          <option value="1">Germano</option>
-                            <option value="2">Luana</option>
-                            <option value="3">Marconi</option>
-                            <option value="4">William</option>
-                          </select>
+                            <label class="form-label"><span class="obrigatorio">*</span> Validade:</label>
+                            <input class="form-control" type="date">
                         </div>
-                        
+
+                        <div class="my-2 col-md-12 col-lg-6 col-xl-6">
+                            <label class="form-label">Observações:</label>
+                            <textarea class="form-control" name="" id="" rows="4"></textarea>
+                        </div>
                     </div>
 
                     <!-- Linha 03  ------------------------------------------------------------->
                     <div class="row">
-                        <div class="my-2 col-lg-6 col-xl-6">
-                            <label class="form-label">Descrição:</label>
-                            <textarea class="form-control" name="" id="" rows="4"></textarea>
-                        </div>
+
 
                         <!-- Botões limpar e salvar  ----------------------------------------------------------------------------------------->
                     </div>
@@ -144,7 +148,7 @@
             </div>
         </div>
     </main>
-    
+
     <!-- MAIN  -->
 
     <!-- FOOTER  -->
